@@ -1,15 +1,15 @@
 minimum_cumulusci_version: '3.68.1'
 project:
     name: Litify-Template
+    dependencies:
+        - version_id: 04t1R000000kYNlQAM # Litify Plans
+        - version_id: 04t1R000000kYNHQA2 # Litify Utilities
+        - version_id: 04t1U000007oeVzQAI # Litify Docs
+        - version_id: 04t1T0000007241QAA # Litify
+        - version_id: 04t5w000005xvOCAAY # Litify Financials
     package:
         name: Litify-Template
-        api_version: '55.0'
-        dependencies:
-              - version_id: 04t1R000000kYNlQAM # Litify Plans
-              - version_id: 04t1R000000kYNHQA2 # Litify Utilities
-              - version_id: 04t1U000007oeVzQAI # Litify Docs
-              - version_id: 04t1T0000007241QAA # Litify
-              - version_id: 04t5w000005xvOCAAY # Litify Financials
+        api_version: '55.0
     git:
         default_branch: 'main'
         prefix_feature: 'feature/'
